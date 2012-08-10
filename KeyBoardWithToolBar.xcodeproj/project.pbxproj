@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E5492915D4E74B00DC1EDC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E5492815D4E74B00DC1EDC /* UIKit.framework */; };
+		18E5492B15D4E74B00DC1EDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E5492A15D4E74B00DC1EDC /* Foundation.framework */; };
+		18E5492D15D4E74B00DC1EDC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E5492C15D4E74B00DC1EDC /* CoreGraphics.framework */; };
+		18E5493315D4E74B00DC1EDC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18E5493115D4E74B00DC1EDC /* InfoPlist.strings */; };
+		18E5493515D4E74B00DC1EDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5493415D4E74B00DC1EDC /* main.m */; };
+		18E5493915D4E74B00DC1EDC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5493815D4E74B00DC1EDC /* AppDelegate.m */; };
+		18E5493C15D4E74C00DC1EDC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5493B15D4E74C00DC1EDC /* ViewController.m */; };
+		18E5493F15D4E74C00DC1EDC /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E5493D15D4E74C00DC1EDC /* ViewController.xib */; };
+		18E5494815D4E7ED00DC1EDC /* KeyBoardWithToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E5494715D4E7ED00DC1EDC /* KeyBoardWithToolBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18E5492415D4E74B00DC1EDC /* KeyBoardWithToolBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyBoardWithToolBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E5492815D4E74B00DC1EDC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18E5492A15D4E74B00DC1EDC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18E5492C15D4E74B00DC1EDC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18E5493015D4E74B00DC1EDC /* KeyBoardWithToolBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyBoardWithToolBar-Info.plist"; sourceTree = "<group>"; };
+		18E5493215D4E74B00DC1EDC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18E5493415D4E74B00DC1EDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18E5493615D4E74B00DC1EDC /* KeyBoardWithToolBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyBoardWithToolBar-Prefix.pch"; sourceTree = "<group>"; };
+		18E5493715D4E74B00DC1EDC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18E5493815D4E74B00DC1EDC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18E5493A15D4E74B00DC1EDC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18E5493B15D4E74C00DC1EDC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18E5493E15D4E74C00DC1EDC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		18E5494615D4E7ED00DC1EDC /* KeyBoardWithToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyBoardWithToolBar.h; sourceTree = "<group>"; };
+		18E5494715D4E7ED00DC1EDC /* KeyBoardWithToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyBoardWithToolBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E5492115D4E74B00DC1EDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5492915D4E74B00DC1EDC /* UIKit.framework in Frameworks */,
+				18E5492B15D4E74B00DC1EDC /* Foundation.framework in Frameworks */,
+				18E5492D15D4E74B00DC1EDC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E5491915D4E74B00DC1EDC = {
+			isa = PBXGroup;
+			children = (
+				18E5494515D4E7ED00DC1EDC /* src */,
+				18E5492E15D4E74B00DC1EDC /* KeyBoardWithToolBar */,
+				18E5492715D4E74B00DC1EDC /* Frameworks */,
+				18E5492515D4E74B00DC1EDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E5492515D4E74B00DC1EDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E5492415D4E74B00DC1EDC /* KeyBoardWithToolBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E5492715D4E74B00DC1EDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E5492815D4E74B00DC1EDC /* UIKit.framework */,
+				18E5492A15D4E74B00DC1EDC /* Foundation.framework */,
+				18E5492C15D4E74B00DC1EDC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18E5492E15D4E74B00DC1EDC /* KeyBoardWithToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				18E5493715D4E74B00DC1EDC /* AppDelegate.h */,
+				18E5493815D4E74B00DC1EDC /* AppDelegate.m */,
+				18E5493A15D4E74B00DC1EDC /* ViewController.h */,
+				18E5493B15D4E74C00DC1EDC /* ViewController.m */,
+				18E5493D15D4E74C00DC1EDC /* ViewController.xib */,
+				18E5492F15D4E74B00DC1EDC /* Supporting Files */,
+			);
+			path = KeyBoardWithToolBar;
+			sourceTree = "<group>";
+		};
+		18E5492F15D4E74B00DC1EDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18E5493015D4E74B00DC1EDC /* KeyBoardWithToolBar-Info.plist */,
+				18E5493115D4E74B00DC1EDC /* InfoPlist.strings */,
+				18E5493415D4E74B00DC1EDC /* main.m */,
+				18E5493615D4E74B00DC1EDC /* KeyBoardWithToolBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E5494515D4E7ED00DC1EDC /* src */ = {
+			isa = PBXGroup;
+			children = (
+				18E5494615D4E7ED00DC1EDC /* KeyBoardWithToolBar.h */,
+				18E5494715D4E7ED00DC1EDC /* KeyBoardWithToolBar.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E5492315D4E74B00DC1EDC /* KeyBoardWithToolBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E5494215D4E74C00DC1EDC /* Build configuration list for PBXNativeTarget "KeyBoardWithToolBar" */;
+			buildPhases = (
+				18E5492015D4E74B00DC1EDC /* Sources */,
+				18E5492115D4E74B00DC1EDC /* Frameworks */,
+				18E5492215D4E74B00DC1EDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyBoardWithToolBar;
+			productName = KeyBoardWithToolBar;
+			productReference = 18E5492415D4E74B00DC1EDC /* KeyBoardWithToolBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E5491B15D4E74B00DC1EDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 18E5491E15D4E74B00DC1EDC /* Build configuration list for PBXProject "KeyBoardWithToolBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18E5491915D4E74B00DC1EDC;
+			productRefGroup = 18E5492515D4E74B00DC1EDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E5492315D4E74B00DC1EDC /* KeyBoardWithToolBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E5492215D4E74B00DC1EDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5493315D4E74B00DC1EDC /* InfoPlist.strings in Resources */,
+				18E5493F15D4E74C00DC1EDC /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E5492015D4E74B00DC1EDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E5493515D4E74B00DC1EDC /* main.m in Sources */,
+				18E5493915D4E74B00DC1EDC /* AppDelegate.m in Sources */,
+				18E5493C15D4E74C00DC1EDC /* ViewController.m in Sources */,
+				18E5494815D4E7ED00DC1EDC /* KeyBoardWithToolBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18E5493115D4E74B00DC1EDC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5493215D4E74B00DC1EDC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18E5493D15D4E74C00DC1EDC /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E5493E15D4E74C00DC1EDC /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E5494015D4E74C00DC1EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18E5494115D4E74C00DC1EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E5494315D4E74C00DC1EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyBoardWithToolBar/KeyBoardWithToolBar-Prefix.pch";
+				INFOPLIST_FILE = "KeyBoardWithToolBar/KeyBoardWithToolBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18E5494415D4E74C00DC1EDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyBoardWithToolBar/KeyBoardWithToolBar-Prefix.pch";
+				INFOPLIST_FILE = "KeyBoardWithToolBar/KeyBoardWithToolBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E5491E15D4E74B00DC1EDC /* Build configuration list for PBXProject "KeyBoardWithToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5494015D4E74C00DC1EDC /* Debug */,
+				18E5494115D4E74C00DC1EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E5494215D4E74C00DC1EDC /* Build configuration list for PBXNativeTarget "KeyBoardWithToolBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E5494315D4E74C00DC1EDC /* Debug */,
+				18E5494415D4E74C00DC1EDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E5491B15D4E74B00DC1EDC /* Project object */;
+}
