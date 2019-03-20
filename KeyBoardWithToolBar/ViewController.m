@@ -3,7 +3,7 @@
 //  KeyBoardWithToolBar
 //
 //  Created by apple on 12-8-10.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2018年 __MyCompanyName__. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -26,6 +26,7 @@
     [super dealloc];
 }
 
+// 123
 - (void)viewDidLoad
 {
     [super viewDidLoad];
